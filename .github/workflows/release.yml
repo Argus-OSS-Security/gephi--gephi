@@ -1,9 +1,10 @@
 name: release
 
-on:
-  push:
-    branches: [ 0.11.5 ]
-
+# Triggers intentionally disabled for Argus-OSS-Security.
+# on:
+#   push:
+#     branches: [ 0.11.5 ]
+# 
 jobs:
   build-base:
     runs-on: ubuntu-latest
